@@ -6,6 +6,6 @@
 class BirthdayGenerator{
 public:
 	Date next();
-	Date next(int year);
+	Date next(int age);
 };
 

@@ -17,7 +17,7 @@ private:
 	Address _address;
 	string _email;
 	string _telNumber;
-	Date birthDay;
+	Date _birthDay;
 	double _gpa;
 
 public:

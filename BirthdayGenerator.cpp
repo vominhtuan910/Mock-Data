@@ -6,7 +6,7 @@
 Date BirthdayGenerator::next(int year) {
     auto intGen = RandomIntegerGenerator::instance();
     int month = intGen->next(1, 12);
-
+   
     int maxDaysInMonth[] = { -1,
         31, 28, 31, 30, 31, 30, 31,
         31, 30, 31, 30, 31

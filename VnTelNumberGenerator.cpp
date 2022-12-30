@@ -1,6 +1,9 @@
 #include "VnTelNumberGenerator.h"
 #include "RandomIntegerGenerator.h"
 
+int VnTelNumberGenerator::_selection = TelOperator::Viettel; //default operator
+
+
 string VnTelNumberGenerator::next() {
 	vector<string>viettel = {
 		"086", "096" ,"097", "098" , "032", "033" ,"034","035","036","037"
@@ -55,7 +58,7 @@ string VnTelNumberGenerator::next() {
 
 
 	//Flip selection
-	_selection = (_selection + 1) % 5;
+	_selection = (_selection + 1) % 4;
 
 	string result = builder.str();
 	return result;

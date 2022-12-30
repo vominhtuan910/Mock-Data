@@ -7,7 +7,7 @@ class FullName;
 class VnNameGenerator
 {
 private:
-	int _selection = Gender::Male;
+	static int _selection;
 
 public:
 	FullName next();

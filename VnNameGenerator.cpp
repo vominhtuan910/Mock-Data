@@ -1,6 +1,8 @@
 #include "VnNameGenerator.h"
 #include "RandomIntegerGenerator.h"
 
+int VnNameGenerator::_selection = Gender::Male; //default gender
+
 FullName VnNameGenerator::next() {
 	vector<string> firsts ={
 		"Nguyen","Tran","Le","Pham","Duong","Huynh","Ngo","Vo","Truong","Bui"

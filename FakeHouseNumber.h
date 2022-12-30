@@ -1,9 +1,9 @@
 #pragma once
 #include "Library.h"
-#include "Address.h"
 
-class HcmAddressGenerator{
+class FakeHouseNumber{
 public:
+	string next();
 	
 };
 

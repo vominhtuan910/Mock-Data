@@ -13,5 +13,7 @@ public:
 
 	int next();
 	int next(int, int);
+	
+	double dnext(double, double);
 };
 

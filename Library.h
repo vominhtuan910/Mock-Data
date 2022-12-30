@@ -9,7 +9,7 @@
 #include <vector>
 #include <algorithm>
 #include <cctype>
-
+#include <random>
 using namespace std;
 
 enum Major
@@ -43,4 +43,12 @@ enum TelOperator {
 	Mobifone = 1,
 	VinaPhone = 2,
 	Vietnamobile = 3,
+};
+
+enum Rank {
+	Excellent = 0,
+	Good = 1,
+	Average = 2,
+	Below_Average = 3,
+	Weak = 4,
 };

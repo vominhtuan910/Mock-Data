@@ -1,13 +1,13 @@
 #pragma once
-
 #include "Library.h"
 
-class VnTelNumberGenerator {
+class GPAGenerator
+{
 private:
 	static int _selection;
 
 public:
-	string next();
-	string next(int telOperator);
+	double next();
+	double next(int); // random with given rank
 };
 
